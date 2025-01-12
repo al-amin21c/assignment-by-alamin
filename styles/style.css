@@ -1,0 +1,21 @@
+
+
+
+
+
+/*navvvvvvvv**/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 145px;
+    align-items: center;
+}
+.nav-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.bgcless-btn {
+    padding: 10px 10px;
+    color: #006A50;
+}
