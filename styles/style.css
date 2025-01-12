@@ -1,6 +1,9 @@
 
 
 /****shared styles**/
+.full-body {
+    background-color: #F5F5F5;
+}
 .cg1 {
     color:#0E0E0E;
     opacity: 50%;
@@ -57,4 +60,47 @@
 .banner-title {
     font-size: 50px;
     font-weight: bold;
+}
+
+/***main**/
+.main-sec {
+    
+ } 
+/****pillar section****/
+
+.pillar {
+    margin: 80px auto;
+    max-width: 1100px;
+}
+
+.pillar-title {
+    font-size: 35px;
+    font-weight: bold;
+    color:#0E0E0E;
+}
+.pillar-box-parent {
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+.pillar-box {
+    width: 210px;
+    background-color: white;
+    padding: 24px 24px;
+    border-radius: 16px;
+}
+
+.pillar-box-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.pillar-para {
+    font-size: 16px;
+    
+    color: #0E0E0E;
+    opacity: 70%;
 }
