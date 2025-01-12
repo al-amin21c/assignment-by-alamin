@@ -1,6 +1,17 @@
 
 
-
+/****shared styles**/
+.cg1 {
+    color:#0E0E0E;
+    opacity: 50%;
+}
+.btn-c1 {
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 15px;
+    border: none;
+}
 
 
 /*navvvvvvvv**/
@@ -18,4 +29,32 @@
 .bgcless-btn {
     padding: 10px 10px;
     color: #006A50;
+}
+
+/***banner***/
+.banner  {
+    background-color: #C6E4D6;
+    height: 500px;
+    max-width: 1100px;
+    border-radius: 24px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title-div {
+    margin-left: 50px;
+}
+.banner-subtitle {
+    font-weight: medium;
+    font-size: 22px;
+    line-height: 0;
+    margin-bottom: 20px;
+
+
+}
+.banner-title {
+    font-size: 50px;
+    font-weight: bold;
 }
